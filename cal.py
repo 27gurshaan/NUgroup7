@@ -19,7 +19,7 @@ while True:
         except ValueError:
             print("Invalid input. Please enter a number.")
             continue
-        elif choice == '3':
+        if choice == '3':
             print(num1, "*", num2, "=", Multiplication.multiply(num1, num2))
 
         elif choice == '4':
